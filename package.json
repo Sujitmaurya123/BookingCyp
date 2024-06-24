@@ -15,8 +15,10 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.4.3",
     "next": "14.2.4",
+    "razorpay": "^2.9.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "shortid": "^2.2.16"
   },
   "devDependencies": {
     "eslint": "^8",

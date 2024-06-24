@@ -11,7 +11,7 @@ const Header3 = () => {
         <div className="mx-10 p-5">
             <h2 className="text-4xl text-white text-center font-bold">Over 157,000 hotels and across 35 countries </h2>
             <div className="flex justify-center my-5 mx-20"> 
-                <input type="text " placeholder="Search..." className="w-96 h-16 outline-none px-3 text-lg border-r-2 border-gray-400 col-span-2"  onChange={(e)=>{setCity(e.target.value)}}  />
+                <input type="text " placeholder="eg.mumbai" className="w-96 h-16 outline-none px-3 text-lg border-r-2 border-gray-400 col-span-2"  onChange={(e)=>{setCity(e.target.value)}}  />
                 
                <Link href={`/hotels?city=${city}`}>
                 <button type="submit" className="h-16 px-3 py-2 w-60 bg-green-500 hover:cursor-pointer hover:bg-green-700 text-white text-xl" 

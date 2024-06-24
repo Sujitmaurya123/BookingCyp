@@ -22,8 +22,8 @@ const List =[
 ]
 
   return (
-    <div>
-        <div className="flex px-5 bg-gray-100 justify-between">
+    <div className=" mt-2">
+        <div className="flex px-5  justify-between  text-black font-semibold">
             {
                 List.map((e)=>{
                     return(

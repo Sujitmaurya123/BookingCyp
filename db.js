@@ -8,10 +8,7 @@ const connectDB = async () => {
     if (cachedDB) {
         return cachedDB;
     } else {
-        const newDB = await mongoose.connect(URI, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-        });
+        const newDB = await mongoose.connect(URI);
         cachedDB = newDB;
         return newDB;
     }
